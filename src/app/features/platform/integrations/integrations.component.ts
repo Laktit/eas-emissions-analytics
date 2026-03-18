@@ -41,7 +41,7 @@ import { CommonModule } from '@angular/common';
 export class IntegrationsComponent {
   integrations = [
     { icon:'⚙', name:'SAP ERP',          status:'CONNECTED', badge:'badge-ok',   detail:'Financial & operational data sync',    meta:'1,204 records today · Last sync: 2 min ago' },
-    { icon:'◎', name:'LEUCIPA IoT',       status:'LIVE',      badge:'badge-ok',   detail:'847 sensors · 2,341 events/min',       meta:'Latency: 1.2s · Uptime: 99.8%' },
+    { icon:'◎',  name:'LCP IoT',       	  status:'LIVE',      badge:'badge-ok',   detail:'847 sensors · 2,341 events/min',       meta:'Latency: 1.2s · Uptime: 99.8%' },
     { icon:'🛰', name:'GHGSat Aerial',    status:'SYNCING',   badge:'badge-warn', detail:'Satellite methane measurement',         meta:'67% complete · ETA 18 min' },
     { icon:'📋', name:'EPA Factors',      status:'CURRENT',   badge:'badge-ok',   detail:'Emission factors v4.1 — US EPA',       meta:'Updated Jan 2026' },
     { icon:'📋', name:'DEFRA Factors',    status:'CURRENT',   badge:'badge-ok',   detail:'UK DEFRA GHG conversion factors',      meta:'Updated Dec 2025' },
